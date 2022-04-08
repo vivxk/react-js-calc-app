@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  font-size: 110%;
+  background: #222;
+  /* background-image: url(https://images.pexels.com/photos/5775/calculator-scientific.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260); */
+}
+#brow {
+  padding-top: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  text-align: center;
+}
+.calculator-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  background: black;
+  width: 400px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 2px solid green;
+  color: white;
+}
+.mainCalc {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+.screen-row input {
+  width: 400px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: black;
+  border: 0px;
+  color: greenyellow;
+  padding: 10px;
+  text-align: right;
+}
+input[type="button"] {
+  width: 100px;
+  background: lightcoral;
+  border: 1px solid red;
+  padding: 10px 20px;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+input[type="button"]:active {
+  background: lightblue;
+}
+input[type="button"]:hover {
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  color: cyan;
 }
